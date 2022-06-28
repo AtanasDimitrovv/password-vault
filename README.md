@@ -7,10 +7,10 @@ The information is stored in files by using either hashing or cryptographic algo
 
 Commands supported by the server:
 
-- register <user> <password> <password-repeat> - create new account with username <user> and password
-- login <user> <password> - log in the account with username <user>
-- logout - leave the account
-- retrieve-credentials <website> <user> - retrieve <user> and password of the account in <website>
-- add-password <website> <user> <password> - add information for account in <website>. Succeeds only if the password is secure.
-- remove-password <website> <user> - remove account information for <website>
+- `register <user> <password> <password-repeat>` - create new account with username `<user>` and password
+- `login <user> <password>` - log in the account with username `<user>`
+- `logout` - leave the account
+- `retrieve-credentials <website> <user>` - retrieve user and password of the account in `<website>`
+- `add-password <website> <user> <password>` - add information for account in `<website>`. Succeeds only if the password is secure.
+- `remove-password <website> <user>` - remove account information for `<website>`
 - disconnect - leave the server
